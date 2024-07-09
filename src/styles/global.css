@@ -39,7 +39,8 @@ html {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
+    background-color: #7700ff;
+    color: white !important;
     display: none;
     margin: 0;
   }
@@ -66,10 +67,11 @@ html {
   @media screen and (min-width: 636px) {
     .nav-links {
       margin-left: 5em;
-      display: block;
+      display: flex;
+      justify-content: space-evenly;
       position: static;
       width: auto;
-      background: none;
+      /* background: none; */
     }
   
     .nav-links a {
